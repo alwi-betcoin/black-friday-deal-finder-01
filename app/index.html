@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DealHunt Friday — Real Black Friday Deals, Checked Today</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark">DH</span><div><h1>DealHunt Friday</h1><p>Real Black Friday deals, checked today — no inflated anchors hidden.</p></div></div>
+  <div class="stats" id="stats"></div>
+</header>
+<section class="controls" aria-label="Search and filters">
+  <input id="q" type="search" placeholder="Search deals… try 'AirPods' or 'OLED'" aria-label="Search deals">
+  <div class="row">
+    <label>Category <select id="cat"></select></label>
+    <label>Store <select id="store"></select></label>
+    <label>Discount <select id="disc"><option value="0">Any discount</option><option value="25">25% off or more</option><option value="40">40% off or more</option><option value="50">50% off or more</option></select></label>
+    <label>Sort <select id="sort"><option value="score">Best score</option><option value="off">Biggest % off</option><option value="save">Biggest $ saving</option><option value="low">Lowest price</option></select></label>
+  </div>
+  <p class="count" id="count"></p>
+</section>
+<section class="compare" id="compare"></section>
+<main id="grid" class="grid"></main>
+<footer><p>Prices in USD, read from the source named on each card on Fri 27 Nov 2026 (WIB). Prices can change or sell out — confirm on the store page before buying. Verdicts: True low = lowest seen this year · Strong = well under usual · Routine = returns most sales · Inflated anchor = 'was' price rarely charged.</p></footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>

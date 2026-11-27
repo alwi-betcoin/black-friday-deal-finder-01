@@ -1,0 +1,21 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0f1220;color:#f2f3f7}
+.top{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding:20px 22px;background:linear-gradient(120deg,#1b2140,#3b1450)}
+.brand{display:flex;gap:14px;align-items:center}.mark{background:#ffb020;color:#1a1200;font-weight:900;font-size:22px;padding:10px 12px;border-radius:12px}
+h1{margin:0;font-size:30px;letter-spacing:.2px}.top p{margin:4px 0 0;color:#cfd3e6}
+.stats{display:flex;gap:10px;flex-wrap:wrap}.stat{background:#ffffff14;border:1px solid #ffffff2a;border-radius:10px;padding:8px 12px;text-align:center}.stat b{display:block;font-size:20px;color:#ffb020}
+.controls{padding:16px 22px;background:#171b31;position:sticky;top:0;z-index:5}
+.controls input{width:100%;padding:13px 14px;font-size:17px;border-radius:10px;border:2px solid #ffb020;background:#fff;color:#111}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.row label{font-size:13px;color:#cfd3e6;display:flex;flex-direction:column;gap:4px;flex:1;min-width:130px}
+select{padding:10px;border-radius:8px;font-size:15px;background:#fff;color:#111;border:0}
+.count{margin:10px 0 0;font-weight:700;color:#ffb020}
+.compare{padding:14px 22px 0}.compare h2{font-size:19px;margin:6px 0}.cmp{background:#1d3a2a;border:1px solid #2f7d4f;border-radius:12px;padding:12px 14px;margin-bottom:10px}.cmp b{color:#7be495}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:14px;padding:16px 22px 24px}
+.card{background:#1a1f38;border:1px solid #2c3358;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:7px}
+.card h3{margin:0;font-size:17px;line-height:1.25;min-height:42px}
+.meta{font-size:13px;color:#aab0c9}.price{display:flex;gap:9px;align-items:baseline}.sale{font-size:26px;font-weight:900;color:#7be495}.was{text-decoration:line-through;color:#9aa0b8}.off{background:#ffb020;color:#1a1200;font-weight:800;border-radius:6px;padding:2px 7px}
+.badge{font-size:12px;font-weight:800;border-radius:6px;padding:3px 8px;width:fit-content}.v-true-low{background:#14532d;color:#bbf7d0}.v-strong{background:#1e3a5f;color:#bfdbfe}.v-routine{background:#4a3a12;color:#fde68a}.v-inflated{background:#5f1d1d;color:#fecaca}
+.note{font-size:13px;color:#d6d9e8;margin:0}.src{font-size:12px;color:#8f96b3;margin:0}
+.btn{margin-top:auto;background:#ffb020;color:#1a1200;font-weight:800;text-align:center;padding:11px;border-radius:9px;text-decoration:none;font-size:15px}
+.score{font-size:12px;color:#ffb020;font-weight:700}
+footer{padding:8px 22px 26px;color:#9aa0b8;font-size:13px;line-height:1.5}
+@media(max-width:520px){h1{font-size:24px}.grid{grid-template-columns:1fr;padding:12px}.controls,.compare{padding-left:12px;padding-right:12px}.top{padding:14px 12px}}
